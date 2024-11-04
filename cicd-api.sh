@@ -32,8 +32,8 @@ BUILD_NO=$(date +"%Y%m%d%H%M")
 POLL_COUNT=30
 SLEEP_TIME=$(((MAX_WAIT_TIME_FOR_SCRIPT_TO_EXIT*60)/$POLL_COUNT))
 JSON_REPORT_FILE_PATH=./testsigma.json
-TESTSIGMA_TEST_PLAN_REST_URL=https://app.testsigma.com/api/v1/execution_results
-TESTSIGMA_JUNIT_REPORT_URL=https://app.testsigma.com/api/v1/reports/junit
+TESTSIGMA_TEST_PLAN_REST_URL=https://staging.testsigma.com/api/v1/execution_results
+TESTSIGMA_JUNIT_REPORT_URL=https://staging.testsigma.com/api/v1/reports/junit
 MAX_WAITTIME_EXCEEDED_ERRORMSG="Given Maximum Wait Time of $MAX_WAIT_TIME_FOR_SCRIPT_TO_EXIT minutes exceeded waiting for the Test Run completion. 
 Please log-in to Testsigma to check Test Plan run results. You can visit the URL specified in \"app_url\" JSON parameter in the response to go to the Test Plan results page directly. 
 For example, \"app_url\":\"https://dev.testsigma.com/#/projects/31/applications/53/version/72/report/executions/197/runs/819/environments\""
