@@ -20,8 +20,8 @@
 # For example, we are using $(date +"%Y%m%d%H%M") to use current data and time as build number.
 #
 #********START USER_INPUTS*********
-TESTSIGMA_API_KEY=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1M2Q1ODVkMC1mNTNjLTRmYTgtYjhkMi0wNDJhYTMzMzljOGQiLCJkb21haW4iOiJzdGFnaW5nMDEuY29tIiwidGVuYW50SWQiOjM3MzB9.uKttanLWUd_mmun9M5rtMMZBnDZE9lFLe0E2xV_xxwiHPIWvP9iq-m1qAbxKahBA7T_5pYs3M8RQm1DLjWchAw
-TESTSIGMA_TEST_PLAN_ID=44
+TESTSIGMA_API_KEY=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyMmIxNjgyNC1jOGE0LTRiMTItOGRlNy1iNjQyNGEyMzdjMzUiLCJkb21haW4iOiJ0ZXN0c2lnbWF0ZWNoLmNvbSIsInRlbmFudElkIjoyODE3fQ.nImi1Why2MM9erFkKZSVrAJq7WYI5jNg26x8qn5ttA9YzjaFeyE-CenWEW_Nt2z3Rnd1Tgs35Zw4WFqlK9pK6Q
+TESTSIGMA_TEST_PLAN_ID=28064
 MAX_WAIT_TIME_FOR_SCRIPT_TO_EXIT=1
 JUNIT_REPORT_FILE_PATH=./junit-report.xml
 RUNTIME_DATA_INPUT="url=https://the-internet.herokuapp.com/login,test=1221"
